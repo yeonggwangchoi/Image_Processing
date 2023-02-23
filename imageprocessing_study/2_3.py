@@ -1,4 +1,3 @@
-from msvcrt import kbhit
 import cv2
 
 img = cv2.imread("DeadPixel3.bmp", cv2.IMREAD_COLOR)

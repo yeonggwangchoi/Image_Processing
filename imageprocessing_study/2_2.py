@@ -38,6 +38,7 @@ for i in img.shape[height:height*2]:
 if c >= 2:
     TF="불량"
     
+print(c)
 print(TF)
 cv2.imshow('img', img)
 cv2.waitKey(0)
